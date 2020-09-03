@@ -97,3 +97,18 @@ html {
   }
 
   //materialUi className=".MuiSvgIcon-root"
+
+
+  //to hide scroll bar
+  /*
+  .className:::-webkit-scrollbar{
+    display: none;
+  }
+
+  //also
+
+  .className{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  */
