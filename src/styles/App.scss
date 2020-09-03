@@ -24,10 +24,15 @@ html {
     overscroll-behavior: none;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-
-    @include media("<=tablet") {
+    @include media("<=desktop") {
+      font-size: 100%;
+  }
+    @include media("<=1080") {
         font-size: 90%;
     }
+    @include media("<=tablet") {
+      font-size: 80%;
+  }
 
     @include media("<=phone") {
         font-size: 70%;
@@ -90,3 +95,5 @@ html {
       align-items: center;
     }
   }
+
+  //materialUi className=".MuiSvgIcon-root"
