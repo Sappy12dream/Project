@@ -1,11 +1,18 @@
 import React from "react";
 import "../styles/App.scss";
+import Header from "./Header";
+import Body from "./Body";
+import Aside from "./Aside";
+import Sidebar from "./Sidebar";
 
 function App() {
   return (
-    <div className="App">
-      <h1>hello world. this is the change</h1>
-    </div>
+    <>
+    <Header/>
+    <Sidebar/>
+    <Body/>
+    <Aside/>
+    </>
   );
 }
 
