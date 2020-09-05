@@ -24,6 +24,7 @@ html {
     overscroll-behavior: none;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    /*
     @include media("<=desktop") {
       font-size: 100%;
   }
@@ -36,7 +37,7 @@ html {
 
     @include media("<=phone") {
         font-size: 70%;
-    }
+    }*/
 }
 
 .container {
